@@ -78,9 +78,9 @@ main() {
 
   tmux set-option -gq status-left "${status_left}" \; \
     set-option -gq status-right "${status_right}" \; \
-    set-option -wgq window-status-current-format "${padding}${window_status_current_format}${padding}" \; \
+    set-option -wgq window-status-current-format "${window_status_current_format}" \; \
     set-option -wgq window-status-current-style "$current_window_style" \; \
-    set-option -wgq window-status-format "${padding}${window_status_format}${padding}" \; \
+    set-option -wgq window-status-format "${window_status_format}" \; \
     set-option -wgq window-status-style "$window_style" \; \
     set-option -wgq window-status-separator ""
 }
