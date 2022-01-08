@@ -43,7 +43,7 @@ main() {
 
   section_a="$(get_tmux_option "@baseline-section-a" "$section_a_default")"
   section_a_style="$(get_tmux_option "@baseline-section-a-style" "$section_a_style_default")"
-  section_b="$(get_tmux_optjon "@baseline-section-b" "$section_b_default")"
+  section_b="$(get_tmux_option "@baseline-section-b" "$section_b_default")"
   section_b_style="$(get_tmux_option "@baseline-section-b-style" "$section_b_style_default")"
   section_c="$(get_tmux_option "@baseline-section-c" "$section_c_default")"
   section_c_style="$(get_tmux_option "@baseline-section-c-style" "$section_c_style_default")"
